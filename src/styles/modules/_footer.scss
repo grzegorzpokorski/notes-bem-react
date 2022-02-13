@@ -1,0 +1,6 @@
+@import  './../abstract';
+
+.footer{
+    @extend .container;
+    text-align: center
+}
