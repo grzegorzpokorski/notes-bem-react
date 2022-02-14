@@ -1,15 +1,19 @@
 import React from 'react';
 
-const Note = ({ title, description, done }) => {
+const Note = ({ id, title, description, done }) => {
+
+    let delete_id = 'delete_' + id,
+        done_id = 'done_' + id;
+
     return (
-        <li className='list__item'>
+        <li className={done ? 'list__item list__item--done' : 'list__item'}>
             <h3>{title}</h3>
             <p>{description}</p>
             <nav className="list__item__nav">
-                <button>
+                <button name={done_id}>
                     oznacz jako {done ? 'zrobione' : 'niezrobione'}
                 </button>
-                <button>
+                <button name={delete_id}>
                     usuń
                 </button>
             </nav>

@@ -12,6 +12,11 @@
         background-color: $white;
         padding: 2rem;
 
+        &--done{
+            background-color: $purple-lighten;
+            text-decoration: line-through;
+        }
+
         &__nav{
             display: flex;
             gap: .5rem;

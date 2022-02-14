@@ -18,6 +18,11 @@
         padding: 2rem;
     }
 
+    &__title{
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
     &__form{
         display: flex;
         flex-direction: column;
@@ -48,6 +53,10 @@
         border: none;
         padding: .75rem 1rem;
         cursor: pointer;
+    }
+
+    &__error{
+        border-color: red;
     }
 
     &__close{
