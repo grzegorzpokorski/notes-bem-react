@@ -11,7 +11,7 @@ const Note = ({ id, title, description, done }) => {
             <p>{description}</p>
             <nav className="list__item__nav">
                 <button name={done_id}>
-                    oznacz jako {done ? 'zrobione' : 'niezrobione'}
+                    oznacz jako {done ? 'niezrobione' : 'zrobione'}
                 </button>
                 <button name={delete_id}>
                     usuń
