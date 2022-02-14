@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/notes-bem-react/static/css/main.3f83e633.css",
-    "main.js": "/notes-bem-react/static/js/main.7a861169.js",
+    "main.js": "/notes-bem-react/static/js/main.a271a61a.js",
     "static/media/roboto-latin-ext-700-normal.woff": "/notes-bem-react/static/media/roboto-latin-ext-700-normal.1b274fb02df91effa8d8.woff",
     "static/media/roboto-latin-ext-400-normal.woff": "/notes-bem-react/static/media/roboto-latin-ext-400-normal.5bfc683d7010de0511e3.woff",
     "static/media/roboto-latin-ext-400-normal.woff2": "/notes-bem-react/static/media/roboto-latin-ext-400-normal.c3dcdbd5bb4d4af80817.woff2",
     "static/media/roboto-latin-ext-700-normal.woff2": "/notes-bem-react/static/media/roboto-latin-ext-700-normal.bcf37d666ce10b3556cd.woff2",
     "index.html": "/notes-bem-react/index.html",
     "main.3f83e633.css.map": "/notes-bem-react/static/css/main.3f83e633.css.map",
-    "main.7a861169.js.map": "/notes-bem-react/static/js/main.7a861169.js.map"
+    "main.a271a61a.js.map": "/notes-bem-react/static/js/main.a271a61a.js.map"
   },
   "entrypoints": [
     "static/css/main.3f83e633.css",
-    "static/js/main.7a861169.js"
+    "static/js/main.a271a61a.js"
   ]
 }
