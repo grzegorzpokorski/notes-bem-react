@@ -1,0 +1,32 @@
+@import './../abstract';
+
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    @extend .container;
+
+    &__item{
+        background-color: $white;
+        padding: 2rem;
+
+        &__nav{
+            display: flex;
+            gap: .5rem;
+
+            & button{
+                background-color: rgba($purple, .15);
+                padding: .5em 1em;
+                border: 0;
+                cursor: pointer;
+
+                &:hover,
+                &:focus{
+                    background-color: rgba($purple, .35);
+                }
+            }
+        }
+    }
+}

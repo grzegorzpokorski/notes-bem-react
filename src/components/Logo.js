@@ -1,8 +1,9 @@
 import React from "react";
+import './../styles/modules/_logo.scss';
 
 const Logo = ({ content }) => {
     return (
-        <h1>
+        <h1 className="logo">
             {content}
         </h1>
     );

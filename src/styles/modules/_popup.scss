@@ -1,0 +1,59 @@
+@import './../abstract';
+
+.popup{
+
+    &--visible{
+        display: block;
+    }
+
+    display: none;
+    position: absolute;
+    background-color: rgba($black, .5);
+    inset: 0;
+
+    &__inner{
+        position: relative;
+        background-color: $white;
+        margin: 2rem;
+        padding: 2rem;
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    &__btn-group{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: .5rem;
+    }
+
+    & input[type='text'],
+    & textarea{
+        padding: 1rem;
+    }
+
+    & textarea{
+        resize: vertical;
+    }
+
+    & input[type='submit'],
+    & input[type='reset'],
+    & button{
+        background-color: $purple;
+        color: $white;
+        border: none;
+        padding: .75rem 1rem;
+        cursor: pointer;
+    }
+
+    &__close{
+        border: none;
+        background-color: $purple;
+        color: $white;
+        padding: 1rem;
+    }
+}

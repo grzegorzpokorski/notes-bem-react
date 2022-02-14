@@ -1,11 +1,11 @@
 import React from "react";
 
-const NavbarItem = ({ iconClass, description }) => {
+const NavbarItem = ({ description, name }) => {
     return (
-        <li className="navbar__item">
-            <span>
+        <li>
+            <button name={name} className="navbar__item">
                 {description}
-            </span>
+            </button>
         </li>
     );
 }

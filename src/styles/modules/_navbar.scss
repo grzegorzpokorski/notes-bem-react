@@ -21,9 +21,11 @@
 
     &__item{
         padding: 1rem;
+        border: none;
         background-color: rgba($black, .15);
-        cursor: pointer;
+        color: $white;
         transition: all $transition;
+        cursor: pointer;
 
         &:hover,
         &:focus{
